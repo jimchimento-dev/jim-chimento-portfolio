@@ -131,7 +131,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills {
 
@@ -234,15 +234,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Project
 --------------------------------------------------------------*/
-.portfolio {
+.project {
 
-  .portfolio-item {
+  .project-item {
     margin-bottom: 30px;
   }
 
-  #portfolio-flters {
+  #project-flters {
     padding:0;
     margin:0 auto 25px auto;
     list-style:none;
@@ -273,30 +273,30 @@ section {
     }
   }
 
-  .portfolio-wrap {
+  .project-wrap {
     transition: 0.3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
     background: rgba($secondary, 0.8);
     
-    $portfolio_wrap_spacing: 30px;
+    $project_wrap_spacing: 30px;
 
     &::before {
       content: "";
       background: rgba($white, 0.7);
       position: absolute;
-      left: $portfolio_wrap_spacing;
-      right: $portfolio_wrap_spacing;
-      top: $portfolio_wrap_spacing;
-      bottom: $portfolio_wrap_spacing;
+      left: $project_wrap_spacing;
+      right: $project_wrap_spacing;
+      top: $project_wrap_spacing;
+      bottom: $project_wrap_spacing;
       transition: all ease-in-out 0.3s;
       z-index: 2;
       opacity: 0;
     }
 
     
-    .portfolio-info {
+    .project-info {
       opacity: 0;
       position: absolute;
       top: 0;
@@ -355,7 +355,7 @@ section {
       
     }
 
-    .portfolio-links {
+    .project-links {
       text-align: center;
       z-index: 4;
 
@@ -382,7 +382,7 @@ section {
         opacity: 1;
       }
 
-      .portfolio-info {
+      .project-info {
         opacity: 1;
 
         &::before {
@@ -402,13 +402,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Project Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.project-details {
 
   padding-top: 40px;
 
-  .portfolio-details-slider {
+  .project-details-slider {
     img {
       width: 100%;
     }
@@ -431,7 +431,7 @@ section {
 
   }
 
-  .portfolio-info {
+  .project-info {
     padding: 30px;
     box-shadow: 0px 0 30px rgba($secondary, 0.08);
 
@@ -455,7 +455,7 @@ section {
     
   }
 
-  .portfolio-description {
+  .project-description {
     padding-top: 30px;
     
     h2 {
