@@ -4,15 +4,15 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 
 ## Features
 
-**Home Page**: The homepage introduces me as a web developer, highlights my skills, and displays a summary of my work experience.
-**Projects Page**: The projects page displays my projects with a short description and screenshots.
+**Home Page**: The homepage introduces me as a web developer, highlights my skills, and displays a summary of my work experience. <br />
+**Projects Page**: The projects page displays my projects with a short description and screenshots. <br />
 **Contact Form**: There's a contact form available where anyone can contact me.
 
 ## Technologies Used
 
-Front-end: HTML5, CSS3, JavaScript, jQuery, Bootstrap
-Back-end: PHP
-Deployment: Netlify
+**Front-end**: HTML5, CSS3, JavaScript, jQuery, Bootstrap <br />
+**Back-end**: PHP <br />
+**Deployment**: Netlify <br />
 
 ## Setup
 
